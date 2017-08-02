@@ -1,0 +1,86 @@
+   *{
+	margin:0px;
+	padding:0px;
+   }
+   input[type=text]{outline:none;}
+   #data{
+      width:316px;
+      height:70px;
+      background-color: #474747;
+      border:0px;
+      font-size:40px;
+      color:#fff;
+   }
+   #bt{
+      text-align: center;
+      width: 62.1px;
+      height: 81px;
+      background-color: #EAEAEA;
+      font-size:36px;
+      border: 0px;
+      
+   }
+   #bt1{
+      text-align: center;
+      width:125.8px;
+      height:81px;
+      background-color: #EAEAEA;
+      font-size: 36px;
+      border:0px;
+   }
+   #bt2{
+      text-align: center;
+      width: 60px;
+      height:162.8px;
+      background-color: #FF7012;
+      font-size: 36px;
+      border:0px;
+      color:#fff;
+      cursor:pointer;
+   }
+
+   #bt3{
+      text-align: center;
+      width: 60px;
+      height: 81px;
+      background-color: #FF7012;
+      font-size: 36px;
+      border: 0px;
+      color:#fff;
+      cursor:pointer;      
+   }
+   #bt:HOVER {
+      font-weight: bold; 
+      background-color: #BDBDBD;      
+      cursor: pointer;           
+   }
+   #bt1:HOVER {
+      font-weight: bold;   
+      background-color: #BDBDBD;   
+      cursor: pointer;            
+   }
+
+   #padBox{
+    background:url('../imgs/pad.png') no-repeat;
+    background-size:417px 513px; 
+    width:417px;
+    height:513px;
+    margin:0 auto;
+
+   }
+   #calBox{
+	width:316px;
+	height:390px;
+	margin:0 auto;
+	padding-top:58px;
+	}
+
+   #calBox table{
+        border-collapse: collapse;
+	}
+   #calBox table tr{
+	border:0px;
+	}
+   #calBox table tr td{
+	border:1px solid black;
+   }

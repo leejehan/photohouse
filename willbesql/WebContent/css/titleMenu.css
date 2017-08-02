@@ -1,0 +1,71 @@
+	@font-face {
+		font-family:Hoon;
+		src: url("../font/HoonWhitecatR.eot");
+		src: url("../font/HoonWhitecatR.woff");
+	}
+	@font-face {
+		font-family:Malgun;
+		src: url("../font/malgun.eot");
+		src: url("../font/malgun.woff");
+	}
+	A:link {text-decoration:none; color:#000;}
+	A:visited {text-decoration:none; color:#000;} 
+	A:hover {text-decoration:none; color:#aaa;}
+	#titleBox{
+		width:1100px;				
+		height:180px;
+		margin:0 auto;
+		margin-top:20px;		
+	}
+	#titleBox *{font-family:Hoon;}
+	#logoImg{
+		width:115px;
+		height:55px;
+		position:relative;
+		top:-10px;
+	}
+	#logoImg:hover{opacity:0.8;}
+	#titleMenu1,#titleMenu2{
+
+	}	
+	#titleMenu1 *{font-size:18pt;}
+	#titleMenu1 tr td,#titleMenu2 tr td{
+
+	}
+	#clientID{width:150px;text-align:right;}
+	#clientID b{font-size:16pt;}
+	#blank{width:450px;}
+	#MenuBox{
+		width:900px;
+		margin:0 auto;
+		margin-top:20px;				
+	}
+	#titleMenu2 *{
+		font-family:Malgun;
+		font-style:italic;
+		font-size:18pt;
+		color:#fff;
+		align:center;
+	}
+	#titleMenu2 tr td{
+		width:180px;
+		height:45px;
+		text-align:center;
+		vertical-align: middle;
+	}
+	#menu1{background-color:#2ECC71;}
+	#menu2{background-color:#F39C12;}
+	#menu3{background-color:#E74C3C;}
+	#menu4{background-color:#34495E;}
+	#menu5{background-color:#3498DB;}
+	#menu1:hover,#menu2:hover,#menu3:hover,#menu4:hover,#menu5:hover{
+		background-color:#fff;
+		box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+		color:#2ECC71;
+	}
+	#menu1:hover a{color:#2ECC71;}
+	#menu2:hover a{color:#F39C12;}
+	#menu3:hover a{color:#E74C3C;}
+	#menu4:hover a{color:#34495E;}
+	#menu5:hover a{color:#3498DB;}
+	#titleMenu1 tr td:hover a{color:#AAA}

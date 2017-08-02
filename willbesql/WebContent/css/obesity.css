@@ -1,0 +1,57 @@
+        select{width:203px;height:30px;margin:4px;}
+        #pricecal label {
+            display: inline-block;
+            width: 80px;
+        }
+       
+        #pricecal input[type~=text] {
+            width: 200px;
+            height: 25px;
+        }
+       
+        #calbt {
+            width: 281px;
+            height: 40px;
+            margin-top: 15px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 900;
+            background: #f3bb4a;
+            border: 1px solid #c4912a;
+            border-radius: 5px;
+            color: #6f5534;
+        }
+       
+        #resoltdv {
+            width: 281px;
+            height:155px;
+            border:0px;
+        }
+
+	#padBox1{
+    background:url('../imgs/pad1.png') no-repeat;
+    background-size:417px 513px; 
+    width:417px;
+    height:513px;
+    margin:0 auto;
+
+   }
+   #calBox1{
+	width:290px;
+	height:400px;
+	margin:0 auto;
+	padding-top:58px;
+
+	}
+
+   #calBox1 table{
+	border-collapse: collapse;
+	}
+	
+	#cm,#kg{
+		border:0px;
+		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);		
+		font-size:8pt;
+		margin-top:10px;
+	}
+	#calbt{cursor:pointer;}
